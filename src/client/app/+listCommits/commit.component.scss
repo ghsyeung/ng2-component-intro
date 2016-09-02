@@ -1,0 +1,27 @@
+
+.commit-item {
+  display: flex;
+
+  .pic {
+    img.profile {
+      width: 60px;
+      border-radius: 5px;
+    }
+  }
+  .info {
+    padding: 10px;
+
+    .message {
+      margin-top: 5px;
+
+      width: 500px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .meta {
+      font-weight: 600;
+    }
+  }
+}
